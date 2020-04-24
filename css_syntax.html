@@ -22,14 +22,21 @@
 
 		}
 
-		h1 {color:green;
+		h1.green, {color:green;
 			font-size: 36px;
 			text-align: center;
+
+
 		}
+
+		.green {font-size:48px; 
+			color:green;
+			opacity:.7;}
+
 	</style>
 </head>
 <body>
-	<h1>Anatomy of a CSS rule</h1>
+	<h1 class= "green">Anatomy of a CSS rule</h1>
 	<h2>Subheading 1</h2>
 	<p>CSS works by associating rules with HTML element. These rules 
 	govern how the content of <span class="randomhighlight">specified elements</span>
@@ -38,7 +45,7 @@ should be displayed.
 	<h2 class="bigasstext">Subheading 2</h2>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 	sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	quis nostrud <span class="green">exercitation ullamco</span> laboris nisi ut aliquip ex ea commodo consequat. 
 	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
 	nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
 officia deserunt mollit anim id est laborum.</p>
