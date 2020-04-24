@@ -5,8 +5,9 @@
 		<title>Psuedo Class Selectors</title>
 		<style>
 			header li{list-style:none;}
-			/*turns off bullet points for all li elements that are descendant of element header*/
 
+			/*turns off bullet points for all li elements that are descendant of element header*/
+			header li:nth-child(2){font-size: 18px;}
 			a:link{text-decoration:none;
 				background-color: yellow;
 				border: 2px solid black;
@@ -24,6 +25,7 @@
 				a:active{background-color: black; color: red;}
 
 				a:visited{background-color: green; color: black;}
+
 
 
 
