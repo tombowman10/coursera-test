@@ -1,4 +1,4 @@
-h1{
+h1{			font-family: "Helvetica", sans-serif;
 			color:blue;
 			font-size: 50px;
 			text-align:center;
@@ -7,7 +7,11 @@ h1{
 			font-size:20px;
 			font-color:green;}
 
+
+
 			a:hover{
 					color: yellow;}
 
 					ul{list-style: none;}
+
+
